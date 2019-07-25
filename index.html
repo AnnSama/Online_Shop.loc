@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>OnlineShop</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script/script.js"></script>
+</head>
+<body>
+<h1 style='display: none;'>Обувь для искушенных дам</h1>
+<header class="header container grid-container full-width-outside full-width-outside::after">
+<!--    <div class="header-block container">-->
+        <ul class="header-top">
+            <li class="header-top__list">
+                <a href="#" class="icon-wrapper header-top__link" title="вход в личный кабинет">
+                    <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <use xlink:href="img/sign1.svg#sign" class="icon-logo"></use>
+                    </svg>
+                    Вход
+                </a>
+            </li>
+            <li class="header-top__list" >
+                <a href="#" class="icon-wrapper header-top__link" title="избранное">
+                     <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <use xlink:href="img/heart1.svg#heart" class="icon-logo"></use>
+                    </svg>
+                    Избранное
+                </a>
+            </li>
+            <li class="header-top__list">
+                <a href="#" class="icon-wrapper header-top__link" title="сравнение">
+                     <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <use xlink:href="img/compare.svg#compare" class="icon-logo"></use>
+                     </svg>
+                     Сравнение
+                </a>
+            </li>
+        </ul>
+        <ul class="social">
+            <li class="social__list">
+                <a href="#" class="icon-wrapper" target="_blank" title="Группа в vkontakte" rel="nofollow noreferrer noopener">
+                    <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <use xlink:href="img/vk1.svg#vk"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__list">
+                <a href="#" class="icon-wrapper" target="_blank" title="Группа в facebook" rel="nofollow noreferrer noopener">
+                    <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <use xlink:href="img/facebook.svg#fb"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__list">
+                <a href="#" class="icon-wrapper" target="_blank" title="Канал в twitter" rel="nofollow noreferrer noopener">
+                    <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <use xlink:href="img/twitter1.svg#twitter"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+<!--    </div>-->
+</header>
+
+    <div class="header-box container grid-container full-width-outside full-width-outside::after">
+
+        <figure class="header-logo">
+            <img src="images/mobilelogo.png" alt="logo" class="header-logo__img">
+            <figcaption class="header-logo__box">
+                <div class="header-logo__name">NALABUTEN.AH</div>
+                <div class="header-logo__text">unrealizable dreams</div>
+            </figcaption>
+        </figure>
+
+        <div class="header-contacts">
+            <a href="tel:88006845594" class="icon-wrapper header-contacts__phone" title="телефон">
+                <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <use xlink:href="img/phone.svg#phone" class="icon-logo"></use>
+                </svg>header-box
+                8 (800) 684 55 94</a>
+            <a href="mailto:info@nalabuten.ah" class="icon-wrapper header-contacts__email" title="почта">
+                <svg class="icon-wrapper__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <use xlink:href="img/letter.svg#letter" class="icon-logo"></use>
+                </svg>
+                info@nalabuten.ah</a>
+        </div>
+        <form method="get" class="search-form">
+            <input type="search" class="search-form__input" placeholder="Введите поисковую фразу" aria-label="Поиск">
+            <button type="submit" class="search-form__button" title="поиск">
+              <svg class="icon-wrapper__icon icon-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                <use xlink:href="img/search.svg#search" class="icon-logo"></use>
+              </svg>
+            </button>
+        </form>
+
+        <div class="basket">
+            <output name="o" for="a b" class="basket__total">75000 р.</output>
+            <a aria-label="Корзина" href="#" data-count="2" class="cart">
+                <svg class="icon-wrapper__icon " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <use xlink:href="img/basket.svg#basket" class="icon-logo"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+<nav class="nav container grid-container full-width-outside full-width-outside::after">
+    <ul class="nav__list">
+        <li class="nav__list-item"><a href="#" class="nav__list-link">Главная</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__list-link">Каталог</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__list-link">Галерея</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__list-link">Акции</a></li>
+        <li class="nav__list-item"><a href="#" class="nav__list-link">Контакты</a></li>
+    </ul>
+</nav>
+
+<!--<main class="main container grid-container full-width-outside full-width-outside::after">-->
+<!--    <div class="main-div">-->
+<!--        <section class="banner">-->
+<!--            <div class="banner__picture">-->
+<!--                <img src="images/product_image.png"-->
+<!--                     srcset="images/product_image@2x.png 2x, images/product_image@3x.png 3x"-->
+<!--                     alt="Labuten">&lt;!&ndash;проверить какую картинку загрузили-кликаем элемент $0.currentSrc &ndash;&gt;-->
+<!--            </div>-->
+<!--            <div class="banner-name">-->
+<!--                <div class="banner-name__big">Labuten Cherry</div>-->
+<!--                <h2 class="banner-name__ht">Новая весенняя коллекция</h2>-->
+<!--                <p class="banner-name__text">Мы рады вам представить новую коллекцию туфель от знаменитого дизайнера-модельера Кристиана </p>-->
+<!--                <button class="banner-name__button">купить</button>-->
+<!--            </div>-->
+<!--        </section>-->
+
+<!--       <div class="selling-sale-actions">-->
+<!--            <a class="selling" href="#">-->
+<!--                <div class="selling__name">Продажа</div>-->
+<!--                <p class="selling__text">Широкий ассортимент моделей</p>-->
+<!--            </a>-->
+<!--            <a class="sale" href="#">-->
+<!--                <div class="sale__name" >Скидки</div>-->
+<!--                <p class="sale__text" >Невообразимо низкие цены</p>-->
+<!--            </a>-->
+<!--            <a class="actions" href="#">-->
+<!--                <div class="actions__name">Акции</div>-->
+<!--                <p class="actions__text">Широкий ассортимент моделей</p>-->
+<!--            </a>-->
+<!--        </div>-->
+
+<!--        <section class="section">-->
+<!--            <h2 class="section__new">-->
+<!--                Новинки-->
+<!--            </h2>-->
+<!--            <div class="section-unit">-->
+<!--                <div class="section-block">-->
+<!--                    <a href="#" class="section-view">-->
+<!--                        <img class="section-view__pic" src="#"  alt="Labuten">-->
+<!--                        <div class="section-view__title">Labuten-lady</div>-->
+<!--                    </a>-->
+<!--                    <div class="section-item__price">35 000 р.</div>-->
+<!--                    <div class="section-item__block">-->
+<!--                        <a href="#" class="section-item__buy">В корзину</a>-->
+<!--                        <a href="#"></a>     &lt;!&ndash;<button title="???"></button>&ndash;&gt;-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                    <figure class="article">-->
+<!--                    <a href="#" class="article-item__link">-->
+<!--                        <img src="#"  alt="Labuten" class="article-item__img">-->
+<!--                    </a>-->
+<!--                    <figcaption class="product">-->
+<!--                        <div class="product__name">Labuten-lady</div>-->
+<!--                        <div class="product__price">35 000 р.</div>-->
+<!--                        <button class="product__button-buy" title="Положить в корзину">В корзину</button>-->
+<!--                        <button class="product__button-favorite" title="Добавить в избранное"></button>-->
+<!--                    </figcaption>-->
+<!--                    </figure>-->
+<!--            </div>-->
+<!--        </section>-->
+
+<!--        <section class="sectionDiscount">-->
+<!--            <h2 class="sectionDiscount__disc">-->
+<!--                Товары со скидкой-->
+<!--            </h2>-->
+<!--            <div class="sectionDiscount-unit">-->
+<!--                <div class="sectionDiscount-item">-->
+<!--                    <a href="#" class="sectionDiscount-item__link">-->
+<!--                        <img src="#"  alt="Labuten">-->
+<!--                        <div class="sectionDiscount-item__title">Labuten-lady</div>-->
+<!--                    </a>-->
+<!--                    <div class="sectionDiscount-item__price">35 000 р. <sup><del>42 700 р.</del></sup>   </div>-->
+<!--                    <div class="sectionDiscount-item__block">-->
+<!--                        <a href="#" class="sectionDiscount-item__buy">В корзину</a>-->
+<!--                        <a href="#"></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </section>-->
+    </div>
+</main>
+
+<!--<aside class="aside"> &lt;!&ndash;сайдбар Всегда должен быть ниже основного контента,т.к. он менее Важен!!!&ndash;&gt;-->
+<!--    <section class="aside__section">-->
+<!--        <h2 class="aside__menu">Категории</h2>-->
+<!--        <ul class="category">-->
+<!--            <li class="category__list"><a class="category__item">Вечерние</a></li>-->
+<!--            <li class="category__list"><a class="category__item">Свадебные</a></li>-->
+<!--            <li class="category__list"><a class="category__item">Бальные</a></li>-->
+<!--            <li class="category__list"><a class="category__item">Повседневные</a></li>-->
+<!--            <li class="category__list"><a class="category__item">Особенные</a></li>-->
+<!--            <li class="category__list"><a class="category__item">Обыкновенные</a></li>-->
+<!--            <li class="category__list"><a class="category__item">Оригиналные</a></li>-->
+<!--            <li class="category__list"><a class="category__item">Космические</a></li>-->
+<!--        </ul>-->
+<!--    </section>-->
+<!--    <div class="promotion1">-->
+<!--        <a class="promotion1__discount" href="#"><img src="#" alt="promotion1__link"> </a>-->
+<!--    </div>-->
+<!--    <div class="promotion2">-->
+<!--        <a class="promotion2__shoes" href="#"><img src="#" alt="promotion2__link"> </a>-->
+<!--    </div>-->
+<!--</aside>-->
+
+<footer class="footer">
+<!--    <a href="/" class="footer-logo" title="Покупайте обувь Lubuten онлайн">-->
+<!--        <img src="#" alt="logo" class="footer-logo__img">-->
+<!--    </a>-->
+
+<!--    <div class="footer-block">-->
+<!--        <div class="footer-block__name">-->
+<!--            Меню-->
+<!--        </div>-->
+<!--        <ul class="footer-list">-->
+<!--            <li class="footer-list__item"><a href="#" class="footer-nav__link">Главная</a></li>-->
+<!--            <li class="footer-list__item"><a href="#" class="footer-nav__link">Каталог</a></li>-->
+<!--            <li class="footer-list__item"><a href="#" class="footer-nav__link">Галерея</a></li>-->
+<!--            <li class="footer-list__item"><a href="#" class="footer-nav__link">Акции</a></li>-->
+<!--            <li class="footer-list__item"><a href="#" class="footer-nav__link">Контакты</a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+
+<!--    <div class="footer-payment">-->
+<!--        <div class="footer-payment__way">-->
+<!--            Способы оплаты-->
+<!--        </div>-->
+<!--        <ul class="payment-way">-->
+<!--            <li class="payment-way__cash">Наличными</li>-->
+<!--            <li class="payment-way__visa">Visa или MasterCard</li>-->
+<!--            <li class="payment-way__credit">В кредит</li>-->
+<!--        </ul>-->
+<!--    </div>-->
+
+<!--    <div class="footer-contacts">-->
+<!--        <div class="footer-contacts__info">-->
+<!--            Контактная информация-->
+<!--        </div>-->
+<!--        <address class="address">-->
+<!--            <a href="tel:84996549879" class="address__phone">Телефон: 8(499)654-98-79</a>-->
+<!--            <a href="mailto:info@nalabuten.ah" class="address__email">E-mail: info@nalabuten.ah</a>-->
+<!--            <div class="address__postaddress">Адрес: г.Москва, Фантастический проезд, д.234</div>-->
+<!--        </address>-->
+<!--    </div>-->
+<!--    <small>&copy; Nalabuten.ah 2017-2019</small>-->
+</footer>
+
+<!--<button class="scroll-to-top shadow-drop-2-center" title="вверх">-->
+<!--    Вверх-->
+<!--</button>-->
+
+
+</body>
+</html>
+
